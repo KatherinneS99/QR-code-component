@@ -47,3 +47,37 @@ body{
     font-size: 15px;
     color: #676a6e;
 }
+
+@media (max-width: 375px) {
+    body {
+        margin: 20px;
+        align-items: flex-start;
+    }
+
+    .qr-component {
+        width: 100%;
+        max-width: 340px;
+        height: auto;
+        margin-top: 40px;
+        padding: 16px;
+        box-shadow: 0 4px 12px #0000001a;
+    }
+
+    .qr-component-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .qr-component-img img {
+        height: auto;
+        min-height: 180px;
+    }
+
+    .qr-component-strong-text {
+        font-size: 18px;
+    }
+
+    .qr-component-light-text {
+        font-size: 14px;
+    }
+}
